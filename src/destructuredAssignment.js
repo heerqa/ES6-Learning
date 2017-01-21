@@ -19,6 +19,6 @@ function getParam(){
     console.log(month);
     console.log(year);
 
-    var {m,y}=currentDate();
-       console.log(month);
-        console.log(year);
+    var {m,d}=currentDate();
+       console.log(m);
+        console.log(d);
